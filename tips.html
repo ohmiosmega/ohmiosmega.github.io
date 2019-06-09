@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style-main-menu.css">
+    <link rel="stylesheet" href="css/style-all.css">
+    <link rel="stylesheet" href="css/style-tips.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/topbutton-script.js"></script>
+    <script src="js/script-tips.js"></script>
+    <script src="js/script-main.js"></script>
+    <title>OhmiosMega | Consejos</title>
+</head>
+
+<body>
+    <div class="header">
+        <div id="trademark" class="col-6">
+            <a href="index.html">
+                    <img id="site-logo"  src="images/symbol.png">
+                     <h1 id="site-title">OhmiosMega</h1>
+            </a>
+            <div id="menu-button" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <nav id="main-menu" class="col-6">
+            <a class="menuitem" title="Inicio" href="index.html">Inicio</a>
+            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
+            <div class="download-div">
+                <a class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
+                <div id="download-links">
+                    <a href="installers.html" class="download-item">Instaladores</a>
+                    <a href="emulators.html" class="download-item">Emuladores</a>
+                </div>
+            </div>
+            <a id="active" class="menuitem" title="Consejos" href="tips.html">Consejos</a>s
+        </nav>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a id="active" class="menuitem" title="Inicio" href="index.html">Inicio</a>
+            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
+            <div class="download-div">
+                <a class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
+                <div id="download-links">
+                    <a href="installers.html" class="download-item">Instaladores</a>
+                    <a href="emulators.html" class="download-item">Emuladores</a>
+                </div>
+            </div>
+            <a class="menuitem" title="Consejos" href="tips.html">Consejos</a>
+        </div>
+    </div>
+
+    <h1 id="tips-title">Consejos para jugar</h1>
+    <div id="tab" class="col-4">
+        <button class="tablinks" onclick="openTip(event, 'tip-1')">Battle Royale</button>
+        <button class="tablinks" onclick="openTip(event, 'tip-2')">Rol</button>
+        <button class="tablinks" onclick="openTip(event, 'tip-3')">Disparos</button>
+        <button class="tablinks" onclick="openTip(event, 'tip-4')">Peleas</button>
+        <button class="tablinks" onclick="openTip(event, 'tip-5')">Plataformas</button>
+        <button class="tablinks" onclick="openTip(event, 'tip-6')">Survival horror</button>
+
+    </div>
+
+
+    <div id="tip-1" class="tabcontent">
+        <h2>Battle Royale</h2>
+        <p>Si te gusta competir y ser el mejor de una partida entonces lee estos consejos para que seas el mejor de cada una de las que juegues.
+        </p>
+        <ol>
+            <li>Siempre busca una zona de varias casas</li>
+            <li>Lucha por la mochila Lvl.3</li>
+            <li>Si caes justo al lado de alguien tienes 2 opciones, salir corriendo o empezar a lastimrlo, debes ser muy preciso porque se defenderá</li>
+            <li>No lo olvides Siempre lleva un arma de varios disparos y otra de disparo unico, como Escopeta-Vector</li>
+            <li>No tengas piedad siempre que los tengas en la mira ¡NO LOS DEJES IR!</li>
+            <li>Coger las granadas no es mala idea, muchas veces puedes distraer al oponente y otras ganar la partida</li>
+            <li>Agachate si ves que es necesario, asi no escucharan tus pasos y tendras ventaja</li>
+            <li>SI te disparan ¡Salta! y busca un lugar donde poderte curar, o de una vez deshacerte de ellos</li>
+            <li>Cuidado con el loot, a veces esas cajas son para atraer a los distraidos</li>
+            <li>Tienes que tener una mira de cada tipo, las x8 pueden perjudicarte a veces</li>
+            <li>Si estas jugando duo cuida a tu compañero y que el tambien lo haga, porque son partidas de duo, si muere alguno ya hay desventaja</li>
+            <li>Si es squad hay que tener mas cuidado, muchas veces el equipo se separa y no llegan ni a los 50. Deben ser cuidadosos</li>
+        </ol>
+
+    </div>
+
+    <div id="tip-2" class="tabcontent">
+        <h3>Rol</h3>
+        <p>Este tipo de juegos es de los que mas gustan. Entonces te mostrare algunas tacticas que debes tener en cuenta.</p>
+        <ol>
+            <li>Haz las misiones, la experiencia es muy valiosa</li>
+            <li>Elige un buen tipo, ya sabemos que pasa cuando quieres cambiar</li>
+            <li>¡Las armas! no olvides siempre tenerlas renovadas y encantadas</li>
+            <li>Si sabes que no lo derrotaras no lo hagas</li>
+            <li>Manten siempre buena salud, no vaya a ser que te mte un animalito</li>
+            <li>Organizate, hay bestias que no las mata un solo jugador</li>
+            <li>Aumenta tu capacidad de reserva</li>
+        </ol>
+
+    </div>
+
+    <div id="tip-3" class="tabcontent">
+        <h3>Disparos</h3>
+        <p>Otro pilar son los juegos de disparos. Pero tambien hay truquillos para desglosar.</p>
+        <ol>
+            <li>Apunta a la cabeza, siempre debes intentar darle en la cabeza al oponente</li>
+            <li>Busca trincheras que te convengan, hay muchas otras que perjudican</li>
+            <li>Usa las granadas cuando veas hordas de enemigos, asi si no estan ya muertos entonces terminalos</li>
+            <li>Si puedes matarlos sin que te detecten seria lo mas conveniente</li>
+        </ol>
+    </div>
+    <div id="tip-4" class="tabcontent">
+        <h3>Peleas</h3>
+        <p>Las peleas siempre han estado, ¿a quien no le gustan?</p>
+        <ol>
+            <li>Aprende a defenderte, estos botones pueden hacerte ganar la partida</li>
+            <li>Aprendete los combos mas dificiles primero, asi los demas no seran dificiles</li>
+            <li>Se recursivo hay veces en que el escenario te ayuda</li>
+            <li>¿Por qué detenerse? No los dejes defenderse</li>
+        </ol>
+    </div>
+
+    <div id="tip-5" class="tabcontent">
+        <h3>Plataformas</h3>
+        <p>¿Para ué un tutorial de plataformas si son faciles de jugar? Preguntale eso a Rayman</p>
+        <ol>
+            <li>Aprendete xada pixel de la pista, te conviene</li>
+            <li>Distingue distancias es muy frustrante caerte sabiendo que podias pasar</li>
+            <li>Explora, siempre hay secretos escondidos en los juegos de plataformas</li>
+            <li>Mata a todos los enemigos que ves, esto es buenisimo para la puntuación</li>
+            <li>Trata de hacer el nivel en el menor tiempo</li>
+        </ol>
+    </div>
+
+    <div id="tip-6" class="tabcontent">
+        <h3>Survival horror</h3>
+        <p>Los mejores para jugar solo y a oscuras, muchas veces frustrantes y ni los vuelves a jugar.</p>
+        <ol>
+            <li>¡Corre! Siempre te persiguen</li>
+            <li>Ten tu arma cargada</li>
+            <li>¡A la cabeza! Esas bestias son peligrosas</li>
+            <li>Piensa lo que haras, estos juegos juegan con tus decisiones</li>
+            <li>Busca antidotos, seran de mucha ayuda</li>
+        </ol>
+    </div>
+
+    <footer class="col-12">
+        <div class="col-6">
+            <a href="https://www.facebook.com/OhmniosMega/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/ohmiosmega" class="fa fa-twitter"></a>
+            <a href="https://plus.google.com/u/0/105928663495115724209" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/user/OhmiosMega" class="fa fa-youtube"></a>
+        </div>
+        <div class="col-6">
+            <button id="myBtn">Acerca de</button>
+        </div>
+        <h3 id="copyright">© 2018 OhmiosMega.</h3>
+    </footer>
+    <button onclick="topFunction()" id="top-button" title="Ir a arriba">Subir</button>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="card">
+                <img id="imgworker" src="images/worker.png" alt="Andrés Felipe CHaparro Rosas">
+                <h1>Andrés Felipe Chaparro Rosas</h1>
+                <p class="title">Estudiante de Ingeniería de Sistemas</p>
+                <p>Universidad Pedagógica y Tecnológica de Colombia</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://www.facebook.com/FelipeSpirit"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var modal = document.getElementById('myModal');
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

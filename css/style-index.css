@@ -1,0 +1,31 @@
+#carousel{
+ z-index: 0;   
+}
+
+#carousel-title {
+    font-size: 15px;
+    text-align: center;
+}
+
+#lastNewsImg{
+    width: 100%;
+}
+
+#newsparag{
+    margin-top: 10px;
+}
+
+.gameimg{
+    width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+    #carousel-title {
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 424px) {
+    #carousel-title {
+        font-size: 24px;
+    }
+}
+

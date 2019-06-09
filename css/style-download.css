@@ -1,0 +1,67 @@
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+#default-button {
+    background-color: darkgray;
+}
+
+#default-button:hover {
+    background-color: #777;
+}
+
+.imgDownload{
+    width: 100%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 10%;
+    text-align: center;
+}
+
+#emulators {
+    background-color: darkgray;
+    display: block;
+}
+
+#installers {
+    background-color: black;
+}
+
+#sections {
+    margin-left: 0;
+}
+
+#default-section {
+    display: block;
+}
+
+#moreDownloads{
+   margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    #sections {
+        margin-left: 8%;
+    }
+    
+    .tabcontent{
+        height: 600px;
+    }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style-main-menu.css">
+    <link rel="stylesheet" href="css/style-all.css">
+    <link rel="stylesheet" href="css/style-download.css">
+    <link rel="stylesheet" href="css/style-card.css">
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/script-download.js"></script>
+    <script src="js/script-main.js"></script>
+    <script src="js/topbutton-script.js"></script>
+    <title>OhmiosMega | Descargas</title>
+</head>
+
+<body>
+    <div class="header">
+        <div id="trademark" class="col-6">
+            <a href="index.html">
+                    <img id="site-logo"  src="images/symbol.png">
+                     <h1 id="site-title">OhmiosMega</h1>
+             </a>
+            <div id="menu-button" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <nav id="main-menu" class="col-6">
+            <a class="menuitem" title="Inicio" href="index.html">Inicio</a>
+            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
+            <div class="download-div">
+                <a id="active" class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
+                <div id="download-links">
+                    <a href="installers.html" class="download-item">Instaladores</a>
+                    <a href="emulators.html" class="download-item">Emuladores</a>
+                </div>
+            </div>
+            <a class="menuitem" title="Consejos" href="tips.html">Consejos</a>
+        </nav>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a id="active" class="menuitem" title="Inicio" href="index.html">Inicio</a>
+            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
+            <div class="download-div">
+                <a class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
+                <div id="download-links">
+                    <a href="installers.html" class="download-item">Instaladores</a>
+                    <a href="emulators.html" class="download-item">Emuladores</a>
+                </div>
+            </div>
+            <a class="menuitem" title="Consejos" href="tips.html">Consejos</a>
+        </div>
+    </div>
+
+    <div id="sections" class="col-10">
+        <button id="default-button" class="tablink" onclick="openCity('emulators', this, 'darkgray')">Emuladores</button>
+        <button class="tablink" onclick="openCity('installers', this, 'black')">Instaladores</button>
+
+        <div id="emulators" class="tabcontent">
+            <h3>Emuladores</h3>
+            <div class="col-6">
+                <a href="">
+                    <img class="imgDownload" src="images/dophinemulator.jpg">
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="">
+                    <img class="imgDownload" src="images/demul.png">
+                 </a>
+            </div>
+            <a href="emulators.html">
+                <h2 id="moreDownloads">Descarga muchos mas aqui</h2>
+            </a>
+        </div>
+
+        <div id="installers" class="tabcontent">
+            <h3>Instaladores</h3>
+            <div class="col-6">
+                <a href="https://accounts.epicgames.com/register/customized?loginSubheading=Sign+In&regSubheading=Register&productName=fortnite&lang=en_US&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Ffortnite%2Fen-US%2Fsuccess&client_id=cd2b7c19c9734a2ab98dc251868d7724&noHostRedirect=true">
+                    <img class="imgDownload" src="images/fornitepaper.jpg">
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="https://us.battle.net/account/creation/en/tos.html?theme=wow&style=wow-trial">
+                    <img class="imgDownload" src="images/wowpaper.jpg">
+                 </a>
+            </div>
+            <a href="installers.html">
+                <h2 id="moreDownloads">Descarga muchos mas aqui</h2>
+            </a>
+        </div>
+    </div>
+
+    <footer class="col-12">
+        <div class="col-6">
+            <a href="https://www.facebook.com/OhmniosMega/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/ohmiosmega" class="fa fa-twitter"></a>
+            <a href="https://plus.google.com/u/0/105928663495115724209" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/user/OhmiosMega" class="fa fa-youtube"></a>
+        </div>
+        <div class="col-6">
+            <button id="myBtn">Acerca de</button>
+        </div>
+        <h3 id="copyright">© 2018 OhmiosMega.</h3>
+    </footer>
+    <button onclick="topFunction()" id="top-button" title="Ir a arriba">Subir</button>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="card">
+                <img id="imgworker" src="images/worker.png" alt="Andrés Felipe CHaparro Rosas">
+                <h1>Andrés Felipe Chaparro Rosas</h1>
+                <p class="title">Estudiante de Ingeniería de Sistemas</p>
+                <p>Universidad Pedagógica y Tecnológica de Colombia</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://www.facebook.com/FelipeSpirit"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var modal = document.getElementById('myModal');
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
