@@ -31,7 +31,6 @@
         </div>
         <nav id="main-menu" class="col-6">
             <a class="menuitem" title="Inicio" href="index.html">Inicio</a>
-            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
             <div class="download-div">
                 <a id="active" class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
                 <div id="download-links">
@@ -39,7 +38,6 @@
                     <a href="emulators.html" class="download-item">Emuladores</a>
                 </div>
             </div>
-            <a class="menuitem" title="Consejos" href="tips.html">Consejos</a>
         </nav>
     </div>
 
@@ -47,7 +45,6 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
             <a id="active" class="menuitem" title="Inicio" href="index.html">Inicio</a>
-            <a class="menuitem" title="Noticias" href="news.html">Noticias</a>
             <div class="download-div">
                 <a class="menuitem" title="Descargas" href="downloads.html">Descargas</a>
                 <div id="download-links">
@@ -55,7 +52,6 @@
                     <a href="emulators.html" class="download-item">Emuladores</a>
                 </div>
             </div>
-            <a class="menuitem" title="Consejos" href="tips.html">Consejos</a>
         </div>
     </div>
 
@@ -66,12 +62,12 @@
         <div id="emulators" class="tabcontent">
             <h3>Emuladores</h3>
             <div class="col-6">
-                <a href="">
+                <a href="https://es.dolphin-emu.org/download/">
                     <img class="imgDownload" src="images/dophinemulator.jpg">
                 </a>
             </div>
             <div class="col-6">
-                <a href="">
+                <a href="http://demul.emulation64.com/">
                     <img class="imgDownload" src="images/demul.png">
                  </a>
             </div>
@@ -102,51 +98,12 @@
         <div class="col-6">
             <a href="https://www.facebook.com/OhmniosMega/" class="fa fa-facebook"></a>
             <a href="https://twitter.com/ohmiosmega" class="fa fa-twitter"></a>
-            <a href="https://plus.google.com/u/0/105928663495115724209" class="fa fa-google"></a>
             <a href="https://www.youtube.com/user/OhmiosMega" class="fa fa-youtube"></a>
         </div>
-        <div class="col-6">
-            <button id="myBtn">Acerca de</button>
-        </div>
-        <h3 id="copyright">© 2018 OhmiosMega.</h3>
+        <h3 id="copyright">© 2019 OhmiosMega.</h3>
     </footer>
     <button onclick="topFunction()" id="top-button" title="Ir a arriba">Subir</button>
 
-
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="card">
-                <img id="imgworker" src="images/worker.png" alt="Andrés Felipe CHaparro Rosas">
-                <h1>Andrés Felipe Chaparro Rosas</h1>
-                <p class="title">Estudiante de Ingeniería de Sistemas</p>
-                <p>Universidad Pedagógica y Tecnológica de Colombia</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.facebook.com/FelipeSpirit"><i class="fa fa-facebook"></i></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <script>
-        var modal = document.getElementById('myModal');
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
 </body>
 
 </html>
